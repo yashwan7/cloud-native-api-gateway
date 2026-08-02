@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cloud-Native API Gateway
 
 A starter cloud-native API gateway platform with four independently deployable services, Docker Compose support, Kubernetes manifests, Prometheus metrics, Grafana provisioning, and a k6 smoke test.
@@ -50,3 +51,7 @@ The manifests use the `cloud-gateway` namespace and expose the gateway through a
 ## Design notes
 
 The gateway is intentionally dependency-free and uses the Node.js `fetch` API for routing. Each service owns its own port and health endpoint. See [docs/architecture/README.md](docs/architecture/README.md) for the request flow and [docs/api/README.md](docs/api/README.md) for the route contract.
+=======
+# cloud-native-api-gateway
+A scalable cloud-native API Gateway platform featuring microservices, Kubernetes orchestration, observability, event-driven architecture, and AI-powered traffic insights.
+>>>>>>> 3dcceb19b109563d7cc3b454df085158b4b986ae
